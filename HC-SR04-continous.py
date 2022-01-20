@@ -3,8 +3,8 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 
-echo = 24
-trig = 23
+echo = 23
+trig = 24
 led = 25
 
 
