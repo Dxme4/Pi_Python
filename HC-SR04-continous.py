@@ -36,7 +36,7 @@ try:
 
         distance = round(distance, 2)
 
-        print ("Distance: ",distance,"cm")
+        print ("Distance: ", distance, "cm")
 
         if distance < 10:
             GPIO.output(led, True)
