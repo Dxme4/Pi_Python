@@ -16,7 +16,7 @@ GPIO.setup(led, GPIO.OUT) #gjøre led til output
 try:
     while True:
         GPIO.output(trig, False)
-        time.sleep(0.5)
+        time.sleep(0.05)
 
         GPIO.output(trig, True)
         time.sleep(0.00001) #Det er som delay i arduino
