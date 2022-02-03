@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO 
 import time 
+import LCD_I2C
 
  
 
