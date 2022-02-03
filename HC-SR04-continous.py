@@ -38,7 +38,7 @@ try:
 
         print ("Distance: ", distance, "cm")
 
-        if distance < 10:
+        if distance < 10: #If distance is 10cm or less, the led will light up
             GPIO.output(led, True)
         else:
             GPIO.output(led, False)
